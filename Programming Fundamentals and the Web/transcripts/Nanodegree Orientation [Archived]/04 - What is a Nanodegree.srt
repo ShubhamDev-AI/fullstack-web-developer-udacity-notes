@@ -1,0 +1,35 @@
+0:00:00.790,0:00:04.010
+A nanodegree is a series of courses and[br]projects designed to help you develop
+
+0:00:04.010,0:00:06.630
+job relevant skills and[br]build a portfolio.
+
+0:00:06.630,0:00:09.460
+These courses and projects were[br]developed in collaboration with industry
+
+0:00:09.460,0:00:11.530
+partners and hiring managers.
+
+0:00:11.530,0:00:14.135
+This nanodegree will help you[br]develop technical skills and
+
+0:00:14.135,0:00:17.600
+knowledge you'd use everyday[br]as a full-stack web developer.
+
+0:00:17.600,0:00:20.250
+It will prepare you for[br]an entry level job as a webdev.
+
+0:00:21.260,0:00:23.850
+>> Career development activities will[br]guide you in how to showcase your
+
+0:00:23.850,0:00:25.610
+expertise and potential.
+
+0:00:25.610,0:00:28.530
+This nanodegree is also community[br]centered though your cohort.
+
+0:00:28.530,0:00:31.150
+All the people in your cohort are[br]working on about the same timeline and
+
+0:00:31.150,0:00:32.460
+will be in the same forum together.

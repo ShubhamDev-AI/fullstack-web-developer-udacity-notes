@@ -1,0 +1,53 @@
+0:00:00.220,0:00:03.800
+This nanodegree can help you prepare for[br]a career in full stack web development.
+
+0:00:03.800,0:00:05.400
+But there are a few[br]important pre-requisites
+
+0:00:05.400,0:00:07.689
+that you need to make sure you've[br]met before starting this program.
+
+0:00:07.689,0:00:10.030
+You may have already taken[br]the readiness assessment.
+
+0:00:10.030,0:00:11.810
+And if you have, that's awesome.
+
+0:00:11.810,0:00:13.860
+If you haven't,[br]this is required to continue.
+
+0:00:13.860,0:00:18.170
+Pause this video and follow the link in[br]the instructor notes to go take it now.
+
+0:00:18.170,0:00:22.226
+The full stack web developer nanodegree[br]requires experience with HTML, CSS,
+
+0:00:22.226,0:00:25.600
+JavaScript and[br]Git-based version control as well.
+
+0:00:25.600,0:00:27.810
+Without this experience[br]prior to this program,
+
+0:00:27.810,0:00:30.310
+you will have difficulty[br]completing the projects.
+
+0:00:30.310,0:00:32.030
+If you believe you're[br]lacking this experience,
+
+0:00:32.030,0:00:34.709
+we encourage you to check out our[br]front-end developer nanodegree.
+
+0:00:35.720,0:00:38.200
+Time commitment is another very[br]important thing to think about.
+
+0:00:38.200,0:00:40.200
+If you're trying to decide[br]if now is the right time for
+
+0:00:40.200,0:00:43.660
+you to start this nanodegree, you'll[br]need to commit at least ten hours a week
+
+0:00:43.660,0:00:46.330
+for your courses, projects,[br]and community events.
+
+0:00:46.330,0:00:48.530
+>> And you should definitely be[br]excited and driven to learn.

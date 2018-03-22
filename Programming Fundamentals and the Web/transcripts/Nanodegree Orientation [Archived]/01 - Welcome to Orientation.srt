@@ -1,0 +1,29 @@
+0:00:00.500,0:00:02.230
+Hello, and[br]welcome to your orientation for
+
+0:00:02.230,0:00:03.820
+the Full Stack Web Developer Nanodegree.
+
+0:00:03.820,0:00:05.600
+In the next few videos,
+
+0:00:05.600,0:00:08.200
+we're going to make sure you have[br]all of the information and tools you
+
+0:00:08.200,0:00:11.710
+need to get started working on your[br]nanodegree and focus on your learning.
+
+0:00:11.710,0:00:14.420
+>> It's super important that you go[br]through this orientation from the very
+
+0:00:14.420,0:00:15.360
+beginning to the very end.
+
+0:00:15.360,0:00:18.320
+We'll talk about everything from how[br]the program is structured, to what
+
+0:00:18.320,0:00:21.260
+we're expecting from you, to the support[br]you will get throughout the program.
+
+0:00:21.260,0:00:22.190
+So let's get started.

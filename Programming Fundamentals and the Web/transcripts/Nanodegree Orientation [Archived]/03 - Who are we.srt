@@ -1,0 +1,80 @@
+0:00:00.540,0:00:02.350
+Before we dive deeper[br]into this orientation,
+
+0:00:02.350,0:00:04.490
+we should probably start[br]with some introductions.
+
+0:00:04.490,0:00:05.800
+>> Hi, I'm Mike Wales,
+
+0:00:05.800,0:00:08.570
+the web development curriculum[br]manager here at Udacity.
+
+0:00:08.570,0:00:11.790
+I started out teaching myself web[br]development over 16 years ago.
+
+0:00:11.790,0:00:14.870
+I freelanced for a few years, and then[br]I went on to build web applications for
+
+0:00:14.870,0:00:16.329
+a number of Department of Defense and
+
+0:00:16.329,0:00:18.910
+government agencies,[br]prior to joining Udacity.
+
+0:00:18.910,0:00:20.220
+>> And I'm Miriam Swords Kalk.
+
+0:00:20.220,0:00:23.110
+I work on community and[br]student experience for nanodegrees.
+
+0:00:23.110,0:00:25.910
+I started out here at Udacity as[br]a course developer, helping plan and
+
+0:00:25.910,0:00:28.830
+create new courses, and then I moved[br]over to our student services team
+
+0:00:28.830,0:00:31.040
+to get more direct[br]interaction with students.
+
+0:00:31.040,0:00:33.990
+I've really loved learning to understand[br]what our students like you want and
+
+0:00:33.990,0:00:36.890
+need, and that's exactly what[br]I'm doing in this nanodegree.
+
+0:00:36.890,0:00:40.420
+I'm here to be your number one advocate,[br]your voice within our company.
+
+0:00:40.420,0:00:43.810
+I can't wait to hear the feedback you[br]have for us throughout the nanodegree.
+
+0:00:43.810,0:00:46.370
+It's not just the two of us[br]working on nanodegrees though.
+
+0:00:46.370,0:00:49.170
+You will also interact with members[br]of the Udacity coach team and
+
+0:00:49.170,0:00:52.170
+course development team frequently[br]while you're in the program.
+
+0:00:52.170,0:00:54.490
+These people have strong[br]technical backgrounds.
+
+0:00:54.490,0:00:57.230
+They're really experienced with[br]programming and web development.
+
+0:00:57.230,0:00:58.860
+>> They're also experts[br]on the projects and
+
+0:00:58.860,0:01:01.680
+courses in your nanodegree since they[br]have a lot of experience with them.
+
+0:01:01.680,0:01:04.160
+And on top of that,[br]they're professional educators.
+
+0:01:04.160,0:01:06.070
+They understand how to[br]help you learn best and
+
+0:01:06.070,0:01:07.240
+are here to help make that happen.

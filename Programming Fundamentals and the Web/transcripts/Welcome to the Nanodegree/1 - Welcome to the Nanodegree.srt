@@ -1,0 +1,95 @@
+0:00:00.590,0:00:03.560
+Welcome to Udacity's Full Stack[br]Web Developer Nanodegree.
+
+0:00:03.560,0:00:06.400
+My name is Michael Wales, I've been[br]lucky enough to be a professional web
+
+0:00:06.400,0:00:08.490
+developer for over 16 years.
+
+0:00:08.490,0:00:10.940
+It's a job that I love and[br]I'm passionate about.
+
+0:00:10.940,0:00:14.220
+I joined Udacity to help people like you[br]launch themselves into a career that is
+
+0:00:14.220,0:00:17.610
+fun, exciting and[br]in a field that is endlessly growing.
+
+0:00:17.610,0:00:20.540
+By completing Udacity's full[br]stack web developer nanodegree,
+
+0:00:20.540,0:00:23.750
+you will have the qualifications you[br]need to start or advance your career as
+
+0:00:23.750,0:00:27.260
+a professional web developer with[br]the portfolio of projects to prove it.
+
+0:00:27.260,0:00:30.310
+For example, you'll build a movie[br]website to share your favorite movie
+
+0:00:30.310,0:00:31.730
+trailers with your friends.
+
+0:00:31.730,0:00:33.850
+You'll build a database driven[br]application to store and
+
+0:00:33.850,0:00:35.740
+analyze the results of a tournament.
+
+0:00:35.740,0:00:38.580
+You'll build an item catalog website[br]that includes authentication and
+
+0:00:38.580,0:00:40.840
+allows users to update the content.
+
+0:00:40.840,0:00:43.990
+You'll build a massively scalable[br]API that powers a mobile conference
+
+0:00:43.990,0:00:44.950
+application.
+
+0:00:44.950,0:00:48.330
+And finally, you'll turn a bear[br]bones Linux server into a secure and
+
+0:00:48.330,0:00:50.210
+efficient web server[br]your applications demand.
+
+0:00:50.210,0:00:52.670
+>> With the help of[br]our industry partners,
+
+0:00:52.670,0:00:54.840
+we designed these projects[br]to showcase the skills and
+
+0:00:54.840,0:00:59.210
+technologies companies are looking for[br]when hiring full stock web developers.
+
+0:00:59.210,0:01:02.690
+Our team here at Udacity is excited to[br]help you develop the expertise you need
+
+0:01:02.690,0:01:04.300
+to build these projects.
+
+0:01:04.300,0:01:07.200
+Before you get started, we'll help you[br]figure out if this nanodegree is a good
+
+0:01:07.200,0:01:08.950
+fit for you right now.
+
+0:01:08.950,0:01:12.150
+Then once you're in the program, you'll[br]be supported by your student community
+
+0:01:12.150,0:01:14.450
+and by Udacity's coaches and[br]instructors.
+
+0:01:14.450,0:01:17.540
+We'll be here to deepen your learning,[br]offer project feedback, and
+
+0:01:17.540,0:01:19.530
+help you develop professionally.
+
+0:01:19.530,0:01:21.070
+We look forward to[br]working with you soon and
+
+0:01:21.070,0:01:24.140
+we can't wait to see where[br]your nanodegree takes you.
