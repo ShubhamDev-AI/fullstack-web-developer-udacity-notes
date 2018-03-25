@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Home Page</title>
+    <style>
+        .big-title{
+            text-align: center;
+            color: orange;
+        }
+        .post-created{
+            color: orange;
+        }
+        .post-subject{
+            font-family: monospace;
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="big-title">Blog Udacity</h1>
+    <a href="/newpost">Create New</a>
+    {% for post in posts %}
+        <hr>
+        <div class="post-header">
+            <a class="post-subject" href="{{post.key().id()}}"> {{post
+                .subject}}</a>
+            <h4 class="post-created">{{post.created}}</h4>
+        </div>
+        <div class="post-content">{{post.content}}</div>
+    {% endfor %}
+</body>
+</html>

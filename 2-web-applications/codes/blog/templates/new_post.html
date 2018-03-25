@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create a new post</title>
+    <style>
+        body{
+            padding-left: 100px;
+        }
+        .big-title{
+            text-align: center;
+            color: orange;
+        }
+        .subject{
+            width: 500px;
+        }
+        .content{
+            width: 500px;
+            height: 300px
+        }
+        .error{
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 class="big-title">Create a new post</h1>
+    <a href="/">Home</a>
+    <hr>
+    <form method="post">
+        <label>
+            <div>Subject</div>
+            <input class="subject" type="text" name="subject"
+                   value="{{subject}}">
+        </label>
+
+        <label>
+            <div>Content</div>
+            <textarea class="content" name="content">{{content}}</textarea>
+        </label>
+
+        <label>
+            <div class="error">{{error}}</div>
+        </label>
+
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
