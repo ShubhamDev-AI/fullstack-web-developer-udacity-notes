@@ -11,8 +11,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+import hmac
 
 import webapp2
+import hashlib
 
 form = """
 <form method="post">
@@ -86,6 +88,7 @@ def escape_html(s):
 
 
 class MainPage(webapp2.RequestHandler):
+    SECRETE = "iamsosecrete"
     def write_form(self, error="", month="", day="", year=""):
         self.response.write(form % {
             "error": error,
@@ -94,8 +97,44 @@ class MainPage(webapp2.RequestHandler):
             "year": escape_html(year),
         })
 
+    def make_hashing(self, s):
+        return hashlib.md5(s).hexdigest()
+
+    def make_hmac(self, s):
+        return hmac.new(self.SECRETE, s).hexdigest()
+
+    def check_secure_cookie(self, s):
+        try:
+            value, hashing_value = s.split('|')
+            if self.make_hmac(value) == hashing_value:
+                return value
+        except Exception as e:
+            pass
+        return None
+
+    def make_secure_cookie(self, s):
+        return "{}|{}".format(s, self.make_hmac(str(s)))
+
     def get(self):
-        self.write_form()
+        # self.write_form()
+        self.response.headers['Content-Type'] = 'text/plain'
+
+        visits = 0
+        visit_cookie_str = self.request.cookies.get('visits')
+
+        if visit_cookie_str:
+            cookie_val = self.check_secure_cookie(visit_cookie_str)
+            if cookie_val:
+                visits = int(cookie_val)
+
+        visits += 1
+
+        cookies = self.make_secure_cookie(visits)
+
+        # set header for response
+        self.response.headers.add_header('Set-Cookie', 'visits={}'.format(
+            cookies))
+        self.response.write("You've been here {} times".format(visits))
 
     def post(self):
         user_month = self.request.get('month')
