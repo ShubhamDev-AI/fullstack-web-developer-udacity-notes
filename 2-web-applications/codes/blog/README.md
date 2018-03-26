@@ -29,4 +29,4 @@ If a user attempts to visit the welcome page without being signed in (without ha
 ## Deploy
 - [x] Create README.md
 - [ ] Refactor code so it is well structured, well commented, and conforms to the Python Style Guide.
-- [ ] Deploy app to appspot.com using `gcloud app deploy`
+- [x] Deploy app to appspot.com using `gcloud app deploy`
