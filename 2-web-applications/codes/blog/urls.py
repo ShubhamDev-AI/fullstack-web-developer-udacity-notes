@@ -37,12 +37,16 @@ class MainPage(Handler):
     """Main page, listing all posts"""
 
     def get(self):
-        if not self.check_cookies():
-            self.redirect("/login")
+        # get posts from database
         posts = db.GqlQuery("SELECT * from Post\
                             ORDER BY created DESC")
-        print(posts)
-        self.render("index.html", posts=posts)
+        # check cookies
+        username = ""
+        if self.check_cookies():
+            username = self.request.cookies.get("username")
+
+        # render page
+        self.render("index.html", posts=posts, username=username)
 
     def post(self):
         pass
@@ -53,7 +57,7 @@ class CreateNewPostPage(Handler):
 
     def get(self):
         if not self.check_cookies():
-            self.redirect("/")
+            self.redirect("/login")
         self.render("new_post.html")
 
     def post(self):
@@ -76,10 +80,18 @@ class SinglePostPage(Handler):
 
     def get(self, post_id):
         if post_id.isdigit():
+            # get post by id
             post_id = int(post_id)
             post = Post.get_by_id(post_id)
+
+            # check cookies
+            username = ""
+            if self.check_cookies():
+                username = self.request.cookies.get("username")
+
+            # render page
             self.render("single_post.html", subject=post.subject,
-                        content=post.content)
+                        content=post.content, username=username)
 
 
 class SignUpPage(Handler):

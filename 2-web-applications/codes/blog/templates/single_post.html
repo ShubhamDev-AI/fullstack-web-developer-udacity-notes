@@ -9,7 +9,11 @@
     <h1 class="big-title">{{subject}}</h1>
     <a href="/">Home</a> |
     <a href="/newpost">Create New</a> |
-    <a href="/logout">Log Out</a>
+
+    {% if username %}
+        <a href="/logout">Log Out ({{username}})</a>
+    {% endif %}
+
     <hr>
     <pre>{{content}}</pre>
 </body>
