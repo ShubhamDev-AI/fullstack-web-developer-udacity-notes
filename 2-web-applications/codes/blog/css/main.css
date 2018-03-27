@@ -3,10 +3,9 @@ pre {
 }
 
 .container {
+    width: 80%;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 .big-title{
     text-align: center;
