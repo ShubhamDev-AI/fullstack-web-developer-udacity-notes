@@ -6,9 +6,9 @@ This project contains many notes, codes which I created during learning 4 course
 You'll be able to learn many basic concepts in both backend and frontend. 
 
 
-## Course 2: Web applications and Development (learning)
+## Course 2: Web applications and Development (done)
 
-## Course 3: The Backend: Databases and Applications
+## Course 3: The Backend: Databases and Applications (learning)
 
 ## Course 4: The Frontend: Javascript and AJAX
 
