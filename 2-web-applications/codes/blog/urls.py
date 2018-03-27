@@ -179,8 +179,8 @@ class WelcomePage(Handler):
     def get(self):
         if not self.check_cookies():
             self.redirect("/login")
-        name = self.request.cookies.get("username")
-        self.write("Signed up successfully, {}".format(name))
+        username = self.request.cookies.get("username")
+        self.render("welcome.html", username=username)
 
 
 class AccountPage(Handler):
