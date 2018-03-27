@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="/css/main.css">
     <title>{{subject}}</title>
 </head>
-<body>
-    <a href="/">Home</a>
-    <a href="/newpost">Create new</a>
-    <h1>{{subject}}</h1>
-    <p>{{content}}</p>
+<body class="container">
+    <h1 class="big-title">{{subject}}</h1>
+    <a href="/">Home</a> |
+    <a href="/newpost">Create New</a> |
+    <a href="/logout">Log Out</a>
+    <hr>
+    <pre>{{content}}</pre>
 </body>
 </html>

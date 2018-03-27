@@ -3,21 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Blog Home Page</title>
-    <style>
-        .big-title{
-            text-align: center;
-            color: orange;
-        }
-        .post-created{
-            color: orange;
-        }
-        .post-subject{
-            font-family: monospace;
-            font-size: 28px;
-        }
-    </style>
+    <link type="text/css" rel="stylesheet" href="/css/main.css">
 </head>
-<body>
+<body class="container">
     <h1 class="big-title">Blog Udacity</h1>
     <a href="/newpost">Create New</a> |
     <a href="/logout">Log Out</a>
@@ -28,7 +16,7 @@
                 .subject}}</a>
             <h4 class="post-created">{{post.created}}</h4>
         </div>
-        <div class="post-content">{{post.content}}</div>
+        <pre class="post-content">{{post.content}}</pre>
     {% endfor %}
 </body>
 </html>

@@ -185,7 +185,7 @@ class WelcomePage(Handler):
 
 class AccountPage(Handler):
     """Listing all accounts"""
-
+    
     def get(self):
         accounts = db.GqlQuery("SELECT * FROM Account ORDER BY created DESC")
         self.render("account_list.html", accounts=accounts)

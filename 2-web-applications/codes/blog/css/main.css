@@ -1,0 +1,17 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.big-title{
+    text-align: center;
+    color: orange;
+}
+.post-created{
+    color: orange;
+}
+.post-subject{
+    font-family: monospace;
+    font-size: 28px;
+}

@@ -7,9 +7,9 @@ from urls import MainPage, CreateNewPostPage, LoginPage, SignUpPage, \
 app = webapp2.WSGIApplication([
     ('/', MainPage),
     ('/newpost', CreateNewPostPage),
+    ('/signup', SignUpPage),
     ('/login', LoginPage),
     ('/logout', LogOutPage),
-    ('/signup', SignUpPage),
     ('/welcome', WelcomePage),
     ('/(\d+)', SinglePostPage),
     ('/accounts', AccountPage)
