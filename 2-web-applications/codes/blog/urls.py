@@ -83,6 +83,9 @@ class SinglePostPage(Handler):
             # get post by id
             post_id = int(post_id)
             post = Post.get_by_id(post_id)
+            subject = post.subject
+            content = post.content
+            created = post.created.strftime("%d-%m-%Y %H:%M:%S")
 
             # check cookies
             username = ""
@@ -91,7 +94,9 @@ class SinglePostPage(Handler):
 
             # render page
             self.render("single_post.html", subject=post.subject,
-                        content=post.content, username=username)
+                        content=post.content,
+                        created=created,
+                        username=username)
 
 
 class SignUpPage(Handler):

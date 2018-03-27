@@ -17,7 +17,8 @@
         <div class="post-header">
             <a class="post-subject" href="{{post.key().id()}}"> {{post
                 .subject}}</a>
-            <h4 class="post-created">{{post.created}}</h4>
+            <h4 class="post-created">{{post.created.strftime("%d-%m-%Y
+                %H:%M:%S")}}</h4>
         </div>
         <div class="row">
             <pre class="post-content">{{post.content}}</pre>
