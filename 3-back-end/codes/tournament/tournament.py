@@ -119,7 +119,7 @@ def swissPairings():
         name2: the second player's name
     """
     # fetch data
-    records = "select * from player_static_view order by wins desc"
+    records = fetchall("select * from player_static_view order by wins desc")
 
     # split data into pairs
     count = 0

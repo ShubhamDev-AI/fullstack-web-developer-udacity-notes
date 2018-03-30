@@ -31,7 +31,6 @@ create table Match(
 	loser integer references Player(id),
 	primary key(winner, loser)
 );
----
 
 ------------------------------------------------------------------------
 -- Insert sample rows into tables
