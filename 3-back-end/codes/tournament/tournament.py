@@ -4,7 +4,6 @@
 #
 
 import psycopg2
-import bleach
 
 
 def connect():
@@ -65,10 +64,6 @@ def registerPlayer(name):
     Args:
       name: the player's full name (need not be unique).
     """
-
-    # prevent xss
-    name = bleach.clean(name)
-
     execute("insert into Player(name) values(%s)", (name,))
 
 
@@ -97,9 +92,6 @@ def reportMatch(winner, loser):
     """
 
     # prevent xss
-    winner = bleach.clean(str(winner))
-    loser = bleach.clean(str(loser))
-
     execute("insert into Match(winner, loser) values(%s, %s)", (winner, loser, ))
  
  

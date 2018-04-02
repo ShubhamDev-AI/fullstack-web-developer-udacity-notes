@@ -47,3 +47,27 @@ update table set column = value where restriction ;
 ```sql
 delete from posts where content like '%spam%';
 ```
+
+## SQL injection and Cross Site Scripting
+#### Sql injection is
+- Example
+```sql
+'); delete from table_name;
+```
+- Solution: Using tuple parameter instead of string
+```
+"insert into values (%s)" % ("'); delete from posts", )
+```
+
+### XSS (Cross site scripting) is:
+- Example
+```html
+<script>
+    doHarmfulThing();
+</script>
+```
+- Solution: Use `bleach` to clean the result when rendering html for user
+```python
+import bleach
+bleach.clean(content)
+```
