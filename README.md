@@ -7,8 +7,11 @@ You'll be able to learn many basic concepts in both backend and frontend.
 
 
 ## Course 2: Web applications and Development (done)
+You'll learn how to deploy webapp to Google App Engine, how to use `jina2` to
+ render template, how to secure web's cookies and user's password
 
 ## Course 3: The Backend: Databases and Applications (learning)
+You'll learn about relational database, SQL and OAuth2.0
 
 ## Course 4: The Frontend: Javascript and AJAX
 
