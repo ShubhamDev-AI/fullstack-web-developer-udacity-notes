@@ -11,7 +11,7 @@
 - Wikipedia to get articles
 
 #### CORS
-- CORS is set in the server-side to works around the same-origin policy
+- CORS is set in the server-side to works around the same-origin policy. It adds `Origin` request header and `Access-Control-Allow-Origin` response header. The `Origin` request header contains current website hostname, and the `Access-Control-Allow-Origin` contains the value of hostname that the server allows.
 - same-origin policy was implemented by browser to prevent bad guys from running script on other site. 
 - But executing scripts on different domains is not absolutely harm. Sometimes, It's so necessary to do it. 
 - Then, web developer maintained server-side API to enable other site can execute scripts on their site. 
