@@ -13,5 +13,8 @@ You'll learn how to deploy webapp to Google App Engine, how to use `jina2` to
 ## Course 3: The Backend: Databases and Applications (done)
 You'll learn about relational database, SQL and OAuth2.0
 
-## Course 4: The Frontend: Javascript and AJAX (learning)
+## Course 4: The Frontend: Javascript and AJAX (done)
+You'll learn how to build a single page application
+
+## Course 5: Deploying to Linux Server (pending)
 
