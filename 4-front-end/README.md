@@ -12,3 +12,9 @@
     - No, good programmer is the one who makes a good decision not the one remembers all stuffs. If you forget a function in a framework, just look up to the documentation.
 - Explore some framework: Knockout.js, Backbone.js (be a detector and a tofu)
 - Use Google APIs to make some useful app
+
+## Projects 
+- Fill data into a single page by using API from Wikimedia api and Google street view image api
+- Using Knockoutjs to build a page to allow click on image and do stuffs
+- Modify a project named `TODOmvc` which is written in `backbone.js` to add more features. 
+- Using Knockoutjs and Google Maps API to show restaurants in some provices in VietNam (or your country)
