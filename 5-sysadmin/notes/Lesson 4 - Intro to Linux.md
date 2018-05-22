@@ -6,7 +6,7 @@
 - LinuxMint: modified version of Ubuntu for desktop users with media support
 
 ## Important directories inside root directory
-- `etc`: where configuration files live
+- `etc`: where configuration files live (et cetera)
 - `var`: variable files. Files grows or are changed the size overtime
 - `bin`: executable binaries are stored, that are accessible by all users
 - `usr`: similar to bin, but not for boot-up or system program 

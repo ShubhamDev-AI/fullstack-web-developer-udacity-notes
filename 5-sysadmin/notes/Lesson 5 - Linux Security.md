@@ -25,3 +25,9 @@ List software of Linux
 - vagrant: name of the user
 - x: encrypted password in early days. But now, this field is often filled with an `x` means None
 - 1000:1000: user id, group id
+
+#### Creating new user
+```shell
+sudo adduser <studentname>
+```
+

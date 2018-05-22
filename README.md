@@ -17,4 +17,4 @@ You'll learn about relational database, SQL and OAuth2.0
 You'll learn how to build a single page application
 
 ## Course 5: Deploying to Linux Server (pending)
-
+You'll be able to deploy a web application to web server
