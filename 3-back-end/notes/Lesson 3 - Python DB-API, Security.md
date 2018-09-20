@@ -71,3 +71,6 @@ delete from posts where content like '%spam%';
 import bleach
 bleach.clean(content)
 ```
+
+### CSRF
+- Cross-site request forgery uses other permission to do illegal actions
